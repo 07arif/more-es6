@@ -36,3 +36,7 @@ const newAges = [...ages, 22, 24, 20];
 
 //destructring
 
+const { x, y, z, ...c } = { x: 54, y: 23, z: 33, name: 'sakib al hasan', salary: 45000 };
+const [a, b, ...r] = [12, 45, 32, 32];
+
+
